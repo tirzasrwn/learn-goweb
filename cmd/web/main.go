@@ -5,9 +5,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/tirzasrwn/gocourse/cmd/pkg/config"
-	"github.com/tirzasrwn/gocourse/cmd/pkg/handlers"
-	"github.com/tirzasrwn/gocourse/cmd/pkg/render"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/config"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/handlers"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/render"
 )
 
 const portNumber = ":4545"

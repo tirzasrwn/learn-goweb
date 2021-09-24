@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"text/template"
 
-	"github.com/tirzasrwn/gocourse/cmd/pkg/config"
-	"github.com/tirzasrwn/gocourse/cmd/pkg/models"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/config"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/models"
 )
 
 var fuction = template.FuncMap{}

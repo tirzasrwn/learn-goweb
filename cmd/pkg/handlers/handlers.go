@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/tirzasrwn/gocourse/cmd/pkg/config"
-	"github.com/tirzasrwn/gocourse/cmd/pkg/models"
-	"github.com/tirzasrwn/gocourse/cmd/pkg/render"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/config"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/models"
+	"github.com/tirzasrwn/learn-goweb/cmd/pkg/render"
 )
 
 var Repo *Repository

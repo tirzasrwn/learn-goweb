@@ -1,3 +1,3 @@
-module github.com/tirzasrwn/gocourse
+module github.com/tirzasrwn/learn-goweb
 
 go 1.16
