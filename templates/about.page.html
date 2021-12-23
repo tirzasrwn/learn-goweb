@@ -16,6 +16,13 @@
                 Today's quote: {{index .StringMap "quote"}}
             </p>
             <p>
+                {{if ne (index .StringMap "remote_ip") ""}}
+                    Your remote IP is {{index .StringMap "remote_ip"}}
+                {{else}}
+                    I don't know yout remote IP yet. Please visit the <a href="/">Home Page</a> so I can set it!
+                {{end}}
+            </p>
+            <p>
                 This came from the template: {{index .StringMap "testAbout"}}
             </p>
         </div>
