@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/alexedwards/scs"
+	"github.com/alexedwards/scs/v2"
 	"github.com/tirzasrwn/learn-goweb/cmd/pkg/config"
 	"github.com/tirzasrwn/learn-goweb/cmd/pkg/handlers"
 	"github.com/tirzasrwn/learn-goweb/cmd/pkg/render"
